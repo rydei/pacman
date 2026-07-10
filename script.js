@@ -134,13 +134,19 @@ function draw() {
         context.fillRect(food.x,food.y,food.width,food.height);
     }
 
-    context.fillStyle = "white";
-    context.font="14px sans-serif";
+    context.fillStyle = "#00ff0d";
+    context.font = "20px sans-serif";
+    let margin = 5; 
+
+    let textX = (tileSize / 2);
+    let textY = (tileSize / 2) + margin;
+
     if (gameOver) {
-        context.fillText("Game Over: " + String(score), tileSize/2, tileSize/2);
-    }
+    context.fillText("Game Over: " + String(score), textX, textY);
+    } 
+    
     else {
-        context.fillText("x" + String(lives) + " " + String(score), tileSize/2, tileSize/2);
+    context.fillText("x" + String(lives) + " " + String(score), textX, textY);
     }
 }
 
