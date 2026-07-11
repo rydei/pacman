@@ -64,7 +64,7 @@ window.onload =  function (){
         ghost.updateDirection(newDirection);
     }
     update();
-    document.addEventListener("keyup",movePacman);
+    document.addEventListener("keydown",movePacman);
     console.log(walls.size)
 }
 
