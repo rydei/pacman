@@ -10,7 +10,7 @@
 - Visit pacman-eosin.vercel.app to try it out!!
 ## Controls
 
-<img width="1414" height="2000" alt="Introduction!" src="https://github.com/user-attachments/assets/d80387ff-0a41-4264-b289-be2e00121a61" />
+<img width="707" height="1000" alt="Introduction!" src="https://github.com/user-attachments/assets/d80387ff-0a41-4264-b289-be2e00121a61" />
 
 
 ## Some stupid things:-
